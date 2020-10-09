@@ -13,3 +13,10 @@ def photo_category(request):
     date = dt.date.today()## current date
     portfolio = Image.objects.all
     return render(request, 'all-folios/category.html', {"date": date, "portfolio": portfolio})
+
+
+def contact(request):
+    date = dt.date.today()
+    return render(request, 'all-folios/contact.html', {"date": date,})
+
+
