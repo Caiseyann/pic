@@ -20,3 +20,7 @@ def contact(request):
     return render(request, 'all-folios/contact.html', {"date": date,})
 
 
+def about(request):
+    date = dt.date.today()
+    return render(request, 'all-folios/about.html', {"date": date,})
+
