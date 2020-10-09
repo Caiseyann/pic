@@ -10,3 +10,12 @@ class LocationTestClass(TestCase):
 
     def setUp(self):
         pass
+
+
+class CategoryTestClass(TestCase):
+    """
+    A test  that checks the 
+    """
+
+    def setUp(self):
+        pass
