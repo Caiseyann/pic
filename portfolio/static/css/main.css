@@ -8,3 +8,82 @@
     font-size: large;
   }
   
+
+  .navlinks{
+    font-size:large;
+    /* color: red; */
+    padding: 15px;
+  }
+
+
+  h1{
+    font-weight: bold;
+    font-size: large;
+  
+  }
+
+  body{
+    background-color: rgba(169, 169, 169, 0.904);
+  }
+  
+  .jumbotron{
+    background-color: rgb(255, 254, 240);
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h3,h2,p
+  {
+    color: rgb(0, 23, 128);
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .image{
+    width:600px;
+    height:400px;
+  }
+  .sociol{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  .about{
+  
+      background-repeat:no-repeat;
+      height: 80vh;
+      width:100%;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      font-size: larger;
+    }
+  
+  
+  .contact{
+    background-repeat:no-repeat;
+    height: 80vh;
+    width:80%;
+    border-radius: 40px;
+    text-align: center;
+    
+    font-family: 'Noto Sans KR', sans-serif;
+  
+  
+  }
+  
+  
+  
+  
+  
+  .search{
+    font-family: 'Noto Sans KR', sans-serif;
+  
+  }
+  
+  input{
+    font-size:large;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+  
+  }
+  
