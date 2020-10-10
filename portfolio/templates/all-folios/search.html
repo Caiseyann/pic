@@ -1,0 +1,27 @@
+{%extends 'all-folios/base.html'%} 
+{% block content %}
+<div class="container search">
+  <div class="row">
+      <div class="row text-light text-center">
+          {% if images%}
+            <h2>Found {{ images|length }} of searched term {{message}}</h2>
+          {% else %}
+            <h2> Found 0 images for the search term {{message}}</h2>
+          {% endif %}
+      
+        </div>
+        
+  {% if images %}
+    {% for image in images %}
+      <div class="col-md-6">
+          <h1>{{image.category}}</h1>
+          <img src="{{image.category_image.url}}" class="img-responsive img-thumbnail" alt="Image">
+          <h3>{{image.description}}</h3>
+          <h3>{{image.posted_date}}</h3>
+  
+      </div>
+    {% endfor %}
+  {% endif %}
+  </div>
+</div>
+{% endblock %}
