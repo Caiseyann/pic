@@ -42,8 +42,8 @@ class Location(models.Model):
 class Image(models.Model):
     title = models.CharField(max_length = 30)
     description = models.TextField()
-    location = models.ForeignKey(Location)
-    category = models.ForeignKey(Category)
+    location = models.ForeignKey(Location,on_delete=models.CASCADE)
+    category = models.ForeignKey(Category,on_delete=models.CASCADE)
     posted_date= models.DateTimeField(auto_now_add=True)
     ## defines where the image will be stored in the file system.
     category_image = models.ImageField(upload_to = 'images/')
