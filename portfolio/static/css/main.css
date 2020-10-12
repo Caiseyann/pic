@@ -3,7 +3,7 @@
 
 .navbar{
     background-color:rgb(130, 0, 102);
-    height: 100px;
+    height: 70px;
     font-family: 'Oswald', sans-serif;
     font-size: large;
   }
@@ -11,8 +11,7 @@
 
   .navlinks{
     font-size:large;
-    /* color: red; */
-    padding: 15px;
+    padding: 10px;
   }
 
 
